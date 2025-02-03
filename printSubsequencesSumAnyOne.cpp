@@ -8,7 +8,7 @@ bool printSubsequencesSumAnyOne(int index, vector<int>& ds, int s, int sum, int 
             return true;
             
         }
-        return false;
+        else return false;
     }
     
     ds.push_back(arr[index]);
